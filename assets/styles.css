@@ -1,0 +1,46 @@
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner input:not([type=radio]):not([type=checkbox]) {
+    border-collapse: collapse !important;
+    padding: 5px !important;
+    font-family: 'Segoe UI' !important;
+    white-space: nowrap !important;
+    text-align: center !important;
+    vertical-align: top !important;
+    overflow: auto;
+}
+.dash-table-container .dash-header {
+    background-color: #ddd !important;
+    color: black !important;
+    font-weight: bold !important;
+    font-family: 'Segoe UI' !important;
+    height: auto !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+}
+.dash-table-container .dash-cell {
+    border: 0.1em solid #ddd !important;
+    border-collapse: collapse !important;
+    padding: 5px !important;
+    font-family: 'Segoe UI' !important;
+    white-space: nowrap !important;
+    height: auto !important;
+    text-align: center !important;
+    vertical-align: top !important;
+    text-overflow: elipsis;
+    min-width: auto;
+    max-width: none;
+}
+.dash-table-container .dash-data {
+    border: 0.1em solid #ddd !important;
+    border-collapse: collapse !important;
+    height: auto !important;
+}
+.chart-card {
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0 6px 8px rgba(89, 87, 87, 0.1);
+}
+
+.Select-menu-outer {
+    display:block!important;
+}
+
